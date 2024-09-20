@@ -9,3 +9,5 @@ Currently, two official plugins are available:
 
 
 yarn create vite
+
+yarn dev

@@ -1,4 +1,5 @@
 {
+  "homepage": "thiagodsla.github.io/calorias",
   "name": "calc-calorias",
   "private": true,
   "version": "0.0.0",
@@ -7,11 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "gh-pages": "^6.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
