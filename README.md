@@ -11,3 +11,10 @@ Currently, two official plugins are available:
 yarn create vite
 
 yarn dev
+
+
+yarn add gh-pages --save-dev
+
+
+yarn run deploy
+https://thiagodsla.github.io/portfolio/
