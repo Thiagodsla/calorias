@@ -17,4 +17,4 @@ yarn add gh-pages --save-dev
 
 
 yarn run deploy
-https://thiagodsla.github.io/portfolio/
+https://thiagodsla.github.io/calorias/
