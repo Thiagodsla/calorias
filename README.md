@@ -16,5 +16,6 @@ yarn dev
 yarn add gh-pages --save-dev
 
 
+Comando para publicação:
 yarn run deploy
 https://thiagodsla.github.io/calorias/

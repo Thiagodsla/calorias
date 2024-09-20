@@ -9,6 +9,7 @@ const router = Routes
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <App /> */}
+    <RouterProvider router={router} />
   </StrictMode>,
 )
