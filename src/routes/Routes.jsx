@@ -5,7 +5,7 @@ import App from '../App.jsx';
 
 export default createBrowserRouter([
   {
-    path: "/calorias/",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
   },
